@@ -1,7 +1,7 @@
 <template lang="html">
     <Panel title="新品推荐" :class="$style.panel">
         <section :class="$style.content">
-            <div class="arrow">更多尖货 ></div>
+            <div>更多尖货 ></div>
             <Slider :options="options" :items="items" cname="product-slider"/>
         </section>
     </Panel>
