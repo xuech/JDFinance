@@ -7,11 +7,15 @@
         <Money/>
         <Mission/>
         <Product/>
+        <Footer/>
+        <Navi/>
     </div>
 </template>
 
 <script>
 import Heador from "../public/JDHeader.vue"
+import Navi from "../public/JDNavigation.vue"
+import Footer from "../public/JDFooter.vue"
 import HSlider from "../home/hslider.vue"
 import Novice from "../home/novice.vue"
 import Borrow from "../home/borrow.vue"
@@ -27,7 +31,9 @@ export default {
         Borrow,
         Money,
         Mission,
-        Product
+        Product,
+        Footer,
+        Navi
     }
 }
 </script>
